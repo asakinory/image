@@ -1,0 +1,11 @@
+name: my-alg
+env: python
+
+resources:
+   cpu: 0.5
+   gpu: 1
+   mem: 512Mi
+
+code:
+   path: https://github.com/asakinory/image
+   entryPoint: image_test.py
