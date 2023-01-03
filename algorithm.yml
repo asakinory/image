@@ -2,9 +2,9 @@ name: my-alg
 env: python
 
 resources:
-   cpu: 0.5
-   gpu: 1
-   mem: 512Mi
+   cpu: 1
+   gpu: 0
+   mem: 256Mi
 
 code:
    path: https://github.com/asakinory/image
